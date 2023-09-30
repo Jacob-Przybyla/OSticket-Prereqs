@@ -31,27 +31,27 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - HeidiSQL
 
 <h2>Installation Steps</h2>
-After downloading all the prerequisites go to control panel, turn windows features on or off, and enable the following.
+After downloading all the prerequisites go to control panel, turn Windows features on or off, and enable the following.
 Internet Information Services, and CGI. (Internet Information Services World Wide Web Services -> Application Development Features)
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FzvTdiX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Install PHP Manager and IIS Rewrite Module.
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xgYdUM5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/18il4Md.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Crate a folder in C: drive named PHP, and transfer the contents of the PHP zip file into the PHP file in C: Drive.
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kdjHyZC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/m5y3aAa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Install Microsoft Visual C++ Redistributable and MySQL 
@@ -62,18 +62,18 @@ Note: MySQL and HeidiSQL use the same password
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CqiOBdo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZsOJjo6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Start Internet Information Services Manager as admin, go to PHP manager,register new php version, and select the php-cgi.exe from Your C: Drive
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/94CRsFT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GxwLujF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tGcnVUp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ezauWJW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Copy the upload folder from the zip OSticket folder to wwwroot (C:\inetpub). rename upload to osticket
