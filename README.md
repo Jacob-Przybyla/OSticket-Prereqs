@@ -80,8 +80,8 @@ Copy the upload folder from the zip OSticket folder to wwwroot (C:\inetpub). ren
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/43MDLMB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/XqBlHdC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Go back to IIS Manager. 
@@ -97,11 +97,11 @@ Use the drop down to get to osticket,double click on PHP Manager click on Enable
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/J1YZGqF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/v5aWwco.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/p6y252P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7cO0QVG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lrM75wF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Go to the include folder in C: Drive (C:\inetpub\wwwroot\osticket) and rename ost-sampleconfig.php to ost-config.php.asd
@@ -109,8 +109,9 @@ Then, disable inheritence (right click ost-config, properties, security, advance
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2JoCEOE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bP4ykaA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lxxy6eF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Intall HeidiSQL and create a new session with the password you created from MySQL. 
@@ -119,8 +120,7 @@ Then add a new database named os ticket ( right click on Heidi, Create new, Data
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="hhttps://i.imgur.com/nuHi2yb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Go to IIS Manager go to os ticket through the drop down and click on Browse*:80, click continue, enter your user and password from HeidiSQL MYSQL Database is Osticket.
@@ -129,15 +129,15 @@ Fill in the rest of the information by tourself then click install.
 <br />
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SJtvuwh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Delete the setup folder (C:\inetpub\wwwroot\osTicket) and change ost-config.php to read only
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/J1YZGqF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IuLjpTo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Congrats you've install os ticket for guest login use http://localhost/osTicket/
