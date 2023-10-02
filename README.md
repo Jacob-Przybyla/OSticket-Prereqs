@@ -104,7 +104,7 @@ Use the drop down to get to osticket,double click on PHP Manager click on Enable
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to the include folder in C: Drive (C:\inetpub\wwwroot\osticket) and rename ost-sampleconfig.php to ost-config.php.
+Go to the include folder in C: Drive (C:\inetpub\wwwroot\osticket) and rename ost-sampleconfig.php to ost-config.php.asd
 Then, disable inheritence (right click ost-config, properties, security, advance) and add new full access permissions (still in advance settings, add, select new principal, type everyone, full control)
 </p>
 <br />
